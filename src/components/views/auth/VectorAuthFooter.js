@@ -24,7 +24,7 @@ const VectorAuthFooter = () => {
     let links = [
         //{"text": "Blog", "url": "https://element.io/blog"},
         //{"text": "Twitter", "url": "https://twitter.com/element_hq"},
-        {"text": "GitHub", "url": "https://github.com/SpiritCroc/element-web/tree/sc"},
+        {"text": "GitHub", "url": "https://github.com/SchildiChat/element-web/tree/sc"},
     ];
 
     if (brandingConfig && brandingConfig.authFooterLinks) {
