@@ -1,6 +1,6 @@
 {
     "default_server_name": "matrix.org",
-    "brand": "Element",
+    "brand": "SchildiChat",
     "integrations_ui_url": "https://scalar.vector.im/",
     "integrations_rest_url": "https://scalar.vector.im/api",
     "integrations_widgets_urls": [
@@ -29,12 +29,8 @@
     },
     "terms_and_conditions_links": [
         {
-            "url": "https://element.io/privacy",
+            "url": "https://schildi.chat/desktop/privacy",
             "text": "Privacy Policy"
-        },
-        {
-            "url": "https://element.io/cookie-policy",
-            "text": "Cookie Policy"
         }
     ]
 }

@@ -3,7 +3,7 @@
     "powered by Matrix": "draait op Matrix",
     "Unknown device": "Onbekend apparaat",
     "You need to be using HTTPS to place a screen-sharing call.": "Oproepen met schermdelen vergen HTTPS.",
-    "Welcome to Element": "Welkom bij Element",
+    "Welcome to Element": "Welkom bij SchildiChat",
     "Decentralised, encrypted chat &amp; collaboration powered by [matrix]": "Gedecentraliseerd en versleuteld chatten &amp; samenwerken dankzij [matrix]",
     "Sign In": "Aanmelden",
     "Create Account": "Account aanmaken",
@@ -27,8 +27,8 @@
     "Go to element.io": "Ga naar element.io",
     "Failed to start": "Opstarten mislukt",
     "Open": "Open",
-    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Uw Element configuratie bevat ongeldige JSON. Gelieve het probleem te corrigeren daarna de pagina te herladen.",
+    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Uw SchildiChat configuratie bevat ongeldige JSON. Gelieve het probleem te corrigeren daarna de pagina te herladen.",
     "Download Completed": "Download voltooid",
-    "Your Element is misconfigured": "Uw Element is verkeerd geconfigureerd",
+    "Your Element is misconfigured": "Uw SchildiChat is verkeerd geconfigureerd",
     "Your browser can't run %(brand)s": "Uw browser kan %(brand)s niet draaien."
 }

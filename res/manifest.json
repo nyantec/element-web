@@ -1,8 +1,8 @@
 {
-    "name": "Element",
-    "short_name": "Element",
+    "name": "SchildiChat",
+    "short_name": "SchildiChat",
     "display": "standalone",
-    "theme_color": "#76CFA6",
+    "theme_color": "#8bc34a",
     "start_url": "index.html",
     "icons": [
         {

@@ -32,7 +32,7 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
         <div className="mx_ErrorView_container">
             <div className="mx_HomePage_header">
                 <span className="mx_HomePage_logo">
-                    <img height="42" src="themes/element/img/logos/element-logo.svg" alt="Element" />
+                    <img height="42" src="themes/element/img/logos/element-logo.svg" alt="SchildiChat" />
                 </span>
                 <h1>{ _t("Unsupported browser") }</h1>
             </div>
@@ -76,7 +76,7 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
             <div className="mx_HomePage_col">
                 <div className="mx_HomePage_row">
                     <div>
-                        <h2 id="step2_heading">Use Element on mobile</h2>
+                        <h2 id="step2_heading">Use SchildiChat on mobile</h2>
                         <p><strong>iOS</strong> (iPhone or iPad)</p>
                         <a
                             href="https://apps.apple.com/app/vector/id1083446067"
