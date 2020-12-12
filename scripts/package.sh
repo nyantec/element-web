@@ -2,10 +2,12 @@
 
 set -e
 
+name=$(grep '"name"' package.json | head -n 1 | sed 's|.*: \"\(.*\)\",|\1|')
+
 if [ -n "$DIST_VERSION" ]; then
     version=$DIST_VERSION
 else
-    version=`git describe --dirty --tags || echo unknown`
+    version=$(grep version package.json | sed 's|.*: \"\(.*\)\",|\1|')
 fi
 
 yarn clean
@@ -16,20 +18,20 @@ yarn build
 cp config.sample.json webapp/
 
 mkdir -p dist
-cp -r webapp element-$version
+cp -r webapp $name-$version
 
 # Just in case you have a local config, remove it before packaging
-rm element-$version/config.json || true
+rm $name-$version/config.json || true
 
 # if $version looks like semver with leading v, strip it before writing to file
 if [[ ${version} =~ ^v[[:digit:]]+\.[[:digit:]]+\.[[:digit:]]+(-.+)?$ ]]; then
-    echo ${version:1} > element-$version/version
+    echo ${version:1} > $name-$version/version
 else
-    echo ${version} > element-$version/version
+    echo ${version} > $name-$version/version
 fi
 
-tar chvzf dist/element-$version.tar.gz element-$version
-rm -r element-$version
+tar chvzf dist/$name-$version.tar.gz $name-$version
+rm -r $name-$version
 
 echo
-echo "Packaged dist/element-$version.tar.gz"
+echo "Packaged dist/$name-$version.tar.gz"
