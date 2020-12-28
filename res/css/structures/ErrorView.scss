@@ -16,6 +16,7 @@ limitations under the License.
 
 // import font-size variables manually, ideally this scss would get loaded by the theme which has all variables in context
 @import "../../../node_modules/matrix-react-sdk/res/css/_font-sizes.scss";
+@import "../../../node_modules/matrix-react-sdk/res/css/_border-radii.scss";
 
 .mx_ErrorView {
     background: #c5e0f7;
@@ -36,7 +37,7 @@ limitations under the License.
 
     .mx_Button {
         border: 0;
-        border-radius: 4px;
+        border-radius: $border-radius-normal;
         font-size: $font-18px;
         margin-left: 4px;
         margin-right: 4px;
