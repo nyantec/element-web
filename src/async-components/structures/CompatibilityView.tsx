@@ -77,37 +77,21 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
                 <div className="mx_HomePage_row">
                     <div>
                         <h2 id="step2_heading">Use SchildiChat on mobile</h2>
-                        <p><strong>iOS</strong> (iPhone or iPad)</p>
-                        <a
-                            href="https://apps.apple.com/app/vector/id1083446067"
-                            target="_blank"
-                            className="mx_ClearDecoration"
-                        >
-                            <img height="48" src="themes/element/img/download/apple.svg" alt="Apple App Store" />
-                        </a>
-                        <p className="mx_Spacer"><strong>Android</strong></p>
-                        <a
-                            href="https://play.google.com/store/apps/details?id=im.vector.app"
-                            target="_blank"
-                            className="mx_ClearDecoration"
-                        >
-                            <img height="48" src="themes/element/img/download/google.svg" alt="Google Play Store" />
-                        </a>
-                        <a
-                            href="https://f-droid.org/repository/browse/?fdid=im.vector.app"
-                            target="_blank"
-                            className="mx_ClearDecoration"
-                        >
-                            <img height="48" src="themes/element/img/download/fdroid.svg" alt="F-Droid" />
-                        </a>
+                        <p><strong>Android</strong></p>
+                        All the instructions and download links can be found on
+                        <a href="https://schildi.chat/android">https://schildi.chat/android</a>.
+                        <p className="mx_Spacer"><strong>iOS</strong> (iPhone or iPad)</p>
+                        SchildiChat is not available for iOS, but you can download
+                        <a href="https://apps.apple.com/app/vector/id1083446067" target="_blank">Element</a>
+                        or another Matrix-Client on the App Store.
                     </div>
                 </div>
             </div>
 
             <div className="mx_HomePage_row mx_Center mx_Spacer">
                 <p className="mx_Spacer">
-                    <a href="https://element.io" target="_blank" className="mx_FooterLink">
-                        { _t("Go to element.io") }
+                    <a href="https://schildi.chat" target="_blank" className="mx_FooterLink">
+                        Go to schildi.chat
                     </a>
                 </p>
             </div>
