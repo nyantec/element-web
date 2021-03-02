@@ -65,7 +65,10 @@ eg. in config.json:
                     "timeline-text-color": "#2e2f32",
                     "timeline-text-secondary-color": "#61708b",
                     "timeline-highlights-color": "#f3f8fd",
-                    "username-colors": ["#ff0000", ...]
+                    "timeline-bubble-background-incoming": "#bbccee",
+                    "timeline-bubble-background-outgoing": "#bb77dd",
+                    "timeline-bubble-background-selected": "#7766cc",
+                    "username-colors": ["#ff0000", ...],
                     "avatar-background-colors": ["#cc0000", ...]
                 }
             }, {
@@ -84,7 +87,10 @@ eg. in config.json:
                     "timeline-background-color": "#181b21",
                     "timeline-text-color": "#EDF3FF",
                     "timeline-text-secondary-color": "#A1B2D1",
-                    "timeline-highlights-color": "#22262E"
+                    "timeline-highlights-color": "#22262E",
+                    "timeline-bubble-background-incoming": "#445566",
+                    "timeline-bubble-background-outgoing": "#228844",
+                    "timeline-bubble-background-selected": "#889955"
                 }
             }
         ]
