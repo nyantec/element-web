@@ -1,3 +1,5 @@
+# Warning: This information is only partially applicable to SchildiChat, look here instead: https://github.com/SchildiChat/schildichat-desktop
+
 Element
 =======
 
@@ -24,29 +26,23 @@ Element has several tiers of support for different environments:
   * Everything else
 
 For accessing Element on an Android or iOS device, we currently recommend the
-native apps [element-android](https://github.com/vector-im/element-android)
-and [element-ios](https://github.com/vector-im/element-ios).
+native apps [element-android](https://github.com/SchildiChat/schildichat-android).
 
 Getting Started
 ===============
 
-The easiest way to test Element is to just use the hosted copy at https://app.element.io.
-The `develop` branch is continuously deployed to https://develop.element.io
-for those who like living dangerously.
+The easiest way to test SchildiChat is to just use the hosted copy at https://app.schildi.chat.
 
-To host your own copy of Element, the quickest bet is to use a pre-built
+To host your own copy of SchildiChat, the quickest bet is to use a pre-built
 released version of Element:
 
-1. Download the latest version from https://github.com/vector-im/element-web/releases
+1. Download the latest version from https://github.com/SchildiChat/schildichat-desktop/releases
 1. Untar the tarball on your web server
-1. Move (or symlink) the `element-x.x.x` directory to an appropriate name
+1. Move (or symlink) the `schildichat-x.x.x` directory to an appropriate name
 1. Configure the correct caching headers in your webserver (see below)
 1. If desired, copy `config.sample.json` to `config.json` and edit it
    as desired. See the [configuration docs](docs/config.md) for details.
-1. Enter the URL into your browser and log into Element!
-
-Releases are signed using gpg and the OpenPGP standard, and can be checked against the public key located
-at https://packages.riot.im/element-release-key.asc.
+1. Enter the URL into your browser and log into SchildiChat!
 
 Note that for the security of your chats will need to serve Element
 over HTTPS. Major browsers also do not allow you to use VoIP/video
@@ -55,7 +51,7 @@ There are some exceptions like when using localhost, which is
 considered a [secure context](https://developer.mozilla.org/docs/Web/Security/Secure_Contexts)
 and thus allowed.
 
-To install Element as a desktop application, see [Running as a desktop
+To install SchildiChat as a desktop application, see [Running as a desktop
 app](#running-as-a-desktop-app) below.
 
 Important Security Notes
@@ -148,10 +144,10 @@ Running as a Desktop app
 ========================
 
 Element can also be run as a desktop app, wrapped in Electron. You can download a
-pre-built version from https://element.io/get-started or, if you prefer,
+pre-built version from https://github.com/SchildiChat/schildichat-desktop/releases or, if you prefer,
 build it yourself.
 
-To build it yourself, follow the instructions at https://github.com/vector-im/element-desktop.
+To build it yourself, follow the instructions at https://github.com/SchildiChat/element-desktop.
 
 Many thanks to @aviraldg for the initial work on the Electron integration.
 
