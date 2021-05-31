@@ -16,7 +16,7 @@
     "Open user settings": "Otevřít uživatelské nastavení",
     "Go to your browser to complete Sign In": "Přejděte do prohlížeče a dokončete přihlášení",
     "Your Element is misconfigured": "Váš SchildiChat je nesprávně nastaven",
-    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Konfigurace Elementu obsahuje neplatný JSON. Opravte problém a načtěte stránku znovu.",
+    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Konfigurace SchildiChatu obsahuje neplatný JSON. Opravte problém a načtěte stránku znovu.",
     "Unable to load config file: please refresh the page to try again.": "Nepodařilo se načíst konfigurační soubor: abyste to zkusili znovu, načtěte prosím znovu stránku.",
     "Download Completed": "Stahování dokončeno",
     "Open": "Otevřít",
