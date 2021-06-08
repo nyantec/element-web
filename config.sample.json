@@ -24,9 +24,7 @@
     ],
     "defaultCountryCode": "GB",
     "showLabsSettings": false,
-    "features": {
-        "feature_new_spinner": false
-    },
+    "features": { },
     "default_federate": true,
     "default_theme": "light",
     "roomDirectory": {
