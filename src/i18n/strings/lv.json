@@ -3,7 +3,7 @@
     "powered by Matrix": "Tiek darbināta ar Matrix",
     "Unknown device": "Nezināma ierīce",
     "You need to be using HTTPS to place a screen-sharing call.": "Lai veiktu ekrāna kopīgošanas zvanu, nepieciešams izmantot HTTPS savienojumu.",
-    "Welcome to Element": "Esiet laipni gaidīti SchildiChat",
+    "Welcome to Element": "Esiet laipni gaidīti Element",
     "Decentralised, encrypted chat &amp; collaboration powered by [matrix]": "Decentralizēta, šifrēta čata &amp; kopdarbošanās sistēma uz [matrix] bāzes",
     "Sign In": "Pierakstīties",
     "Create Account": "Izveidot kontu",
@@ -20,7 +20,7 @@
     "Please install <chromeLink>Chrome</chromeLink>, <firefoxLink>Firefox</firefoxLink>, or <safariLink>Safari</safariLink> for the best experience.": "Labākajai izmantošanas pieredzei, lūdzu, instalējiet <chromeLink>Chrome</chromeLink>, <firefoxLink>Firefox</firefoxLink> vai <safariLink>Safari</safariLink> pārlūku.",
     "You can continue using your current browser, but some or all features may not work and the look and feel of the application may be incorrect.": "Jūs varat turpināt lietot savu pašreizējo pārlūku, bet dažas vai visas funkcijas nestrādās, un lietotnes izskats var būt nepareizs.",
     "I understand the risks and wish to continue": "Es pieņemu riskus un vēlos turpināt",
-    "Go to element.io": "Ej uz schildi.chat",
+    "Go to element.io": "Ej uz element.io",
     "Failed to start": "Neizdevās palaist",
     "Powered by Matrix": "Darbojas uz Matrix",
     "Previous/next recently visited room or community": "Iepriekšējā/nākošā nesen apmeklētā istaba vai kopiena",
@@ -29,8 +29,8 @@
     "Missing indexeddb worker script!": "Trūkst indexeddb worker skripta!",
     "Open": "Atvērt",
     "Download Completed": "Lejupielāde pabeigta",
-    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Jūsu SchildiChat konfigurācija satur kļūdainu JSON. Lūdzu, salabojiet problēmu un pārlādējiet lapu.",
-    "Your Element is misconfigured": "Jūsu SchildiChat ir nokonfigurēts kļūdaini",
+    "Your Element configuration contains invalid JSON. Please correct the problem and reload the page.": "Jūsu Element konfigurācija satur kļūdainu JSON. Lūdzu, salabojiet problēmu un pārlādējiet lapu.",
+    "Your Element is misconfigured": "Jūsu Element ir nokonfigurēts kļūdaini",
     "%(appName)s (%(browserName)s, %(osName)s)": "%(appName)s (%(browserName)s, %(osName)s)",
     "%(brand)s Desktop (%(platformName)s)": "%(brand)s Desktop (%(platformName)s)"
 }
