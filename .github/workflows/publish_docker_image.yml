@@ -34,4 +34,4 @@ jobs:
           build-args: USE_CUSTOM_SDKS=true,REACT_SDK_REPO="https://github.com/SchildiChat/matrix-react-sdk.git",REACT_SDK_BRANCH="master",JS_SDK_REPO="https://github.com/SchildiChat/matrix-js-sdk.git",JS_SDK_BRANCH="master"
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository }}/schildichat-web:latest
+          tags: ghcr.io/schildichat/schildichat-web:latest
