@@ -23,10 +23,7 @@
         "https://scalar-staging.riot.im/scalar/api"
     ],
     "defaultCountryCode": "GB",
-    "showLabsSettings": false,
-    "features": {
-        "feature_new_spinner": false
-    },
+    "showLabsSettings": true,
     "default_federate": true,
     "default_theme": "light",
     "roomDirectory": {
