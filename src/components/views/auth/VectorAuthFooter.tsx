@@ -22,10 +22,10 @@ import { _t } from 'matrix-react-sdk/src/languageHandler';
 const VectorAuthFooter = () => {
     const brandingConfig = SdkConfig.get().branding;
     let links = [
-        //{"text": "Blog", "url": "https://element.io/blog"},
-        //{"text": "Twitter", "url": "https://twitter.com/element_hq"},
-        {"text": "About", "url": "https://schildi.chat"},
-        {"text": "GitHub", "url": "https://github.com/SchildiChat/schildichat-desktop"},
+        //{ "text": "Blog", "url": "https://element.io/blog" },
+        //{ "text": "Twitter", "url": "https://twitter.com/element_hq" },
+        { "text": "About", "url": "https://schildi.chat" },
+        { "text": "GitHub", "url": "https://github.com/SchildiChat/schildichat-desktop" },
     ];
 
     if (brandingConfig && brandingConfig.authFooterLinks) {

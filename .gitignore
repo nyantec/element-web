@@ -20,3 +20,5 @@ electron/pub
 /.tmp
 /webpack-stats.json
 /src/component-index.js.tmp
+.vscode
+.vscode/
