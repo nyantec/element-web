@@ -71,7 +71,7 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
         android = [];
     }
 
-    let mobileHeader = <h2 id="step2_heading">{_t("Use %(brand)s on mobile", { brand })}</h2>;
+    let mobileHeader = <h2 id="step2_heading">{ _t("Use %(brand)s on mobile", { brand }) }</h2>;
     if (!android.length && !ios) {
         mobileHeader = null;
     }
@@ -102,11 +102,11 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
                                 'or <safariLink>Safari</safariLink> for the best experience.',
                                 {},
                                 {
-                                    'chromeLink': (sub) => <a href="https://www.google.com/chrome">{sub}</a>,
-                                    'firefoxLink': (sub) => <a href="https://firefox.com">{sub}</a>,
-                                    'safariLink': (sub) => <a href="https://apple.com/safari">{sub}</a>,
+                                    'chromeLink': (sub) => <a href="https://www.google.com/chrome">{ sub }</a>,
+                                    'firefoxLink': (sub) => <a href="https://firefox.com">{ sub }</a>,
+                                    'safariLink': (sub) => <a href="https://apple.com/safari">{ sub }</a>,
                                 },
-                            )}
+                            ) }
                         </p>
                         <p>
                             { _t(
@@ -124,6 +124,9 @@ const CompatibilityView: React.FC<IProps> = ({ onAccept }) => {
             <div className="mx_HomePage_col">
                 <div className="mx_HomePage_row">
                     <div>
+                        {/* { mobileHeader }
+                        { ios }
+                        { android } */}
                         <h2 id="step2_heading">Use SchildiChat on mobile</h2>
                         <p><strong>Android</strong></p>
                         All the instructions and download links can be found on
